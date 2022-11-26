@@ -1,1 +1,1 @@
-### Simple WeahterAPI for scrapint weather.com
+### Simple WeahterAPI by scraping weather.com and using URL Slug for Identifier.
