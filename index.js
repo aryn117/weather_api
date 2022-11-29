@@ -40,7 +40,7 @@ app.get("/", (req, res) => {
   res.send('JIZZ');
 })
 
-app.get("/get_weather/:id", async (req, res) => {
+app.get("/get/:id", async (req, res) => {
 
   console.log(req.params.id);
 
