@@ -39,7 +39,7 @@ app.get("/test", (req, res) => {
   res.send('JIZZ');
 })
 
-app.get("/:id", async (req, res) => {
+app.get("/get_weather/:id", async (req, res) => {
 
   console.log(req.params.id);
 
@@ -47,6 +47,6 @@ app.get("/:id", async (req, res) => {
   res.send(return_data);
 });
 
-app.listen(3000, () => {
-  console.log("Running @ localhost:3000");
+app.listen(app.get('port'), () => {
+  console.log(`Running at: ${app.get('port')}`);
 });
