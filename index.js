@@ -2,6 +2,7 @@ const express = require("express");
 const puppeteer = require("puppeteer");
 
 const app = express();
+app.set('port', process.env.PORT || 8080);
 
 const url =
   "https://weather.com/en-IN/weather/today/l/";
