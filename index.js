@@ -35,7 +35,7 @@ const scrapeData = async (slug = "2d408aa1ffeaecb648de1d0ea0f633496fccc5d85b54e5
   }
 };
 
-app.get("/test", (req, res) => {
+app.get("/", (req, res) => {
   res.send('JIZZ');
 })
 
